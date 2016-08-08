@@ -1,0 +1,30 @@
+{
+  "name": "eunion/qiniu",
+  "type": "library",
+  "description": "A storage library for laravel5 and qiniu sdk",
+  "keywords": [
+    "laravel5",
+    "qiniu",
+    "storage",
+    "sdk",
+    "cloud",
+    "laravel"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kify",
+      "email": "923382771@qq.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "qiniu/php-sdk": "~7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "eunion\\QiniuStorage\\": "src/"
+    }
+  }
+}
