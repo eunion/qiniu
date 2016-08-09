@@ -11,7 +11,7 @@ Laravel5 七牛存储组件（使用官方SDK）
 安装
 
 composer require eunion/laravel-storage-qiniu
-config/app.php 里面的 providers 数组， 加上一行 eunion\QiniuStorage\QiniuFilesystemServiceProvider
+config/app.php 里面的 providers 数组， 加上一行 Eunion\QiniuStorage\QiniuFilesystemServiceProvider
 config/filesystem.php 里面的 disks数组加上：
 
     'disks' => [

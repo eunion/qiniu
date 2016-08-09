@@ -1,21 +1,21 @@
-<?php namespace eunion\QiniuStorage;
+<?php namespace Eunion\QiniuStorage;
 
 use League\Flysystem\Filesystem;
 use Illuminate\Support\ServiceProvider;
-use eunion\QiniuStorage\Plugins\DownloadUrl;
-use eunion\QiniuStorage\Plugins\ImageExif;
-use eunion\QiniuStorage\Plugins\ImageInfo;
-use eunion\QiniuStorage\Plugins\ImagePreviewUrl;
-use eunion\QiniuStorage\Plugins\PersistentFop;
-use eunion\QiniuStorage\Plugins\PersistentStatus;
-use eunion\QiniuStorage\Plugins\PrivateDownloadUrl;
-use eunion\QiniuStorage\Plugins\UploadToken;
-use eunion\QiniuStorage\Plugins\Fetch;
-use eunion\QiniuStorage\Plugins\PutFile;
+use Eunion\QiniuStorage\Plugins\DownloadUrl;
+use Eunion\QiniuStorage\Plugins\ImageExif;
+use Eunion\QiniuStorage\Plugins\ImageInfo;
+use Eunion\QiniuStorage\Plugins\ImagePreviewUrl;
+use Eunion\QiniuStorage\Plugins\PersistentFop;
+use Eunion\QiniuStorage\Plugins\PersistentStatus;
+use Eunion\QiniuStorage\Plugins\PrivateDownloadUrl;
+use Eunion\QiniuStorage\Plugins\UploadToken;
+use Eunion\QiniuStorage\Plugins\Fetch;
+use Eunion\QiniuStorage\Plugins\PutFile;
 
 /**
  * Class QiniuFilesystemServiceProvider
- * @package eunion\QiniuStorage
+ * @package Eunion\QiniuStorage
  */
 class QiniuFilesystemServiceProvider extends ServiceProvider
 {

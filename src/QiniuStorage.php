@@ -1,8 +1,8 @@
-<?php namespace eunion\QiniuStorage;
+<?php namespace Eunion\QiniuStorage;
 
 /**
  * Class QiniuStorage
- * @package eunion\QiniuStorage
+ * @package Eunion\QiniuStorage
  */
 class QiniuStorage
 {

@@ -6,7 +6,7 @@
  * Time: 16:38
  */
 
-namespace eunion\QiniuStorage\Plugins;
+namespace Eunion\QiniuStorage\Plugins;
 
 use League\Flysystem\Plugin\AbstractPlugin;
 
@@ -16,7 +16,7 @@ use League\Flysystem\Plugin\AbstractPlugin;
  * $disk        = \Storage::disk('qiniu'); <br>
  * $re          = $disk->getDriver()->imagePreviewUrl('foo/bar1.css',$ops); <br>
  *
- * @package eunion\QiniuStorage\Plugins
+ * @package Eunion\QiniuStorage\Plugins
  */
 class ImagePreviewUrl extends AbstractPlugin
 {

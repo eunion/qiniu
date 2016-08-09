@@ -1,4 +1,4 @@
-<?php namespace eunion\QiniuStorage;
+<?php namespace Eunion\QiniuStorage;
 
 use League\Flysystem\Adapter\AbstractAdapter;
 use League\Flysystem\Adapter\Polyfill\NotSupportingVisibilityTrait;
@@ -15,7 +15,7 @@ use Qiniu\Storage\UploadManager;
 
 /**
  * Class QiniuAdapter
- * @package eunion\QiniuStorage
+ * @package Eunion\QiniuStorage
  */
 class QiniuAdapter extends AbstractAdapter
 {
